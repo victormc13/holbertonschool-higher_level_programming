@@ -6,6 +6,6 @@ if __name__ == "__main__":
 
     result = 0
 
-    for argument in range(1, len(argv)):
+    for argument in argv[1:]:
         result += int(argv[argument])
     print(result)
