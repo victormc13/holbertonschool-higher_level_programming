@@ -3,7 +3,7 @@
 def print_matrix_integer(matrix=[[]]):
 
     if matrix is None:
-        return [[]]
+        return
 
     for row in matrix:
         for element in range(len(row)):
