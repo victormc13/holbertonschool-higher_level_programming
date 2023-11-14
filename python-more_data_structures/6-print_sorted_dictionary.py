@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-
 def print_sorted_dictionary(a_dictionary):
 
-    sorted_dictionary = list(a_dictionary)
-    sorted_dictionary.sort()
+    if a_dictionary is None:
+        return
 
-    for key in sorted_dictionary:
-        print(f"{key}: {a_dictionary[key]}")
+    for key, value in sorted(a_dictionary.items()):
+        print(f"{key}: {value}")
