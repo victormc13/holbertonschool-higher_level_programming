@@ -58,7 +58,6 @@ TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
 # Test Case 9: Missing two arguments
 >>> matrix_divided()
->>> matrix_divided()
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
