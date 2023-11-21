@@ -44,5 +44,7 @@ ValueError: size must be >= 0
 
 # Test Case 7: Missing size argument
 >>> print_square()
+Traceback (most recent call last):
+...
 TypeError: print_square() missing 1 required positional argument: 'size'
 
