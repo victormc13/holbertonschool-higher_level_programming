@@ -40,3 +40,15 @@ Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 >>> text_indentation("This is a simple text without any punctuation.")
 This is a simple text without any punctuation.
 <BLANKLINE>
+
+# Test Case 4: Non-string text (raises TypeError)
+>>> text_indentation(234234)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+# Test Case 5: Missing text argument
+>>> text_indentation()
+Traceback (most recent call last):
+...
+TypeError: text_indentation() missing 1 required positional argument: 'text'
