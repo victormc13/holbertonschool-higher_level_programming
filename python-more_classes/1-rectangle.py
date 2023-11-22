@@ -10,12 +10,12 @@ class Rectangle:
         __width (int): Width of the rectangle.
         __height (int): Height of the rectangle.
     """
-    def __init__(self, width, height):
+    def __init__(self, width=0, height=0):
         """Initialize a Rectangle instance.
 
         Args:
-            width (int): Width of the rectangle.
-            height (int): Height of the rectangle.
+            width (int): Width of the rectangle. Defaults to 0.
+            height (int): Height of the rectangle. Defaults to 0.
 
         Raises:
             TypeError: If width or height is not an integer.
