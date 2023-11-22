@@ -113,6 +113,7 @@ class Rectangle:
         """Return a formal string representation of the rectangle.
 
         Returns:
-            str: String representation of the rectangle to create a new instance using eval().
+            str: String representation of the rectangle
+            to create a new instance using eval().
         """
         return "Rectangle({}, {})".format(self.__width, self.__height)
