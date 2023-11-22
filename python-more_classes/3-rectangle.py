@@ -108,13 +108,3 @@ class Rectangle:
             return ""
 
         return '\n'.join('#' * self.__width for _ in range(self.__height))
-
-    def __repr__(self):
-        """Return a formal string representation of the rectangle.
-
-        Returns:
-            str: String representation of the rectangle
-            with the class name and memory address.
-        """
-        class_name = self.__class__.__name__
-        return "<{}.{} object at {}>".format(class_name, class_name, hex(id(self)))
