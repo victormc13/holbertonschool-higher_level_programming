@@ -4,11 +4,10 @@
 
 
 def lookup(obj):
-    """Returns a lis object.
+    """Returns a list object with all attributes and methods.
     
     Args:
         obj (obj): Object as argument to
-        return a list of his attributes and methods.
 
     Returns:
         list (obj): Returns a list object.
