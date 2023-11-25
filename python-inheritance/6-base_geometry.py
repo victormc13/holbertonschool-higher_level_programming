@@ -10,7 +10,7 @@ class BaseGeometry:
         the area() method is not implemented.
 
         Raises:
-            Exception: raises the Exception with the message "area() is not implemented."
+            Exception: raises the Exception with the
+            message "area() is not implemented."
         """
         raise Exception("area() is not implemented")
-    
