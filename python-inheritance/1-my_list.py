@@ -4,7 +4,7 @@
 
 
 class MyList(list):
-    """MyList clast that inherits from list.
+    """MyList clast that inherits of list.
 
     Args:
         list (list): List as argument with all elements of type int.
