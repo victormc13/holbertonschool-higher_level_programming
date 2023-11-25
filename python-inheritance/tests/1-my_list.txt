@@ -67,3 +67,11 @@ TypeError: print_sorted() takes 1 positional argument but 2 were given
 >>> my_list.append(3)
 >>> my_list.print_sorted()
 [3]
+
+
+# Test Case 12: Negative and positive numbers
+>>> my_list.append(-3)
+>>> my_list.append(0)
+>>> my_list.append(6)
+>>> my_list.print_sorted()
+[-3, 0, 3, 6]
