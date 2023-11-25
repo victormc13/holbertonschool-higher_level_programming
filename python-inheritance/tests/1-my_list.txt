@@ -50,8 +50,13 @@
 >>> isinstance(my_list, list)
 True
 
+# Test Case 9: Instance has the correct type
+>>> my_list = MyList()
+>>> type(my_list) == MyList
+True
 
-# Test Case 9: print_sorted method with 1 passed argument
+
+# Test Case 10: print_sorted method with 1 passed argument
 >>> my_list.print_sorted(22)
 Traceback (most recent call last):
 ...
