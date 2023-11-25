@@ -61,3 +61,9 @@ True
 Traceback (most recent call last):
 ...
 TypeError: print_sorted() takes 1 positional argument but 2 were given
+
+
+# Test Case 11: Single number
+>>> my_list.append(3)
+>>> my_list.print_sorted()
+[3]
