@@ -44,3 +44,8 @@
 # Test Case 7: Verify that MyList remains unchanged after print_sorted
 >>> my_list
 [1, 4, 2, 3, 5, 0, 7]
+
+# Test Case 8: MyList is an instance of the class
+>>> my_list = MyList()
+>>> isinstance(my_list, list)
+True
