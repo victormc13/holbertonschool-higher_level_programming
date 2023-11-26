@@ -12,3 +12,10 @@
 Traceback (most recent call last):
 ...
 Exception: area() is not implemented
+
+# Test Case 3: Value is not an integer (raises an TypeErro)
+>>> bg.integer_validator("age", "23")
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
