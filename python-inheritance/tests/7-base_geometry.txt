@@ -21,7 +21,7 @@ Traceback (most recent call last):
 TypeError: age must be an integer
 
 
-# Test Case 5: Value is equal to 0 (raises a ValueError)
+# Test Case 4: Value is equal to 0 (raises a ValueError)
 >>> bg.integer_validator("age", 0)
 Traceback (most recent call last):
 ...
@@ -33,3 +33,10 @@ ValueError: age must be greater than 0
 Traceback (most recent call last):
 ...
 ValueError: age must be greater than 0
+
+
+# Test Case 6: integer_validator method receives only one argument
+>>> bg.integer_validator("name")
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
