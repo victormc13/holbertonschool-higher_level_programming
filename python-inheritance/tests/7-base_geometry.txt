@@ -1,0 +1,14 @@
+# Test Cases for BaseGeometry class
+
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+# Test Case 1: Create an instance of BaseGeometry
+>>> bg = BaseGeometry()
+
+
+
+# Test Case 2: Call the area method (raises an Exception)
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
