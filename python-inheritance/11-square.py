@@ -19,7 +19,7 @@ class Square(Rectangle):
 
     def area(self):
         """Returns the area."""
-        return super().area() 
+        return super().area()
 
     def __str__(self):
         """Return a informal string representation of the instance.
