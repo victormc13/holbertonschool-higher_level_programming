@@ -54,3 +54,10 @@ TypeError: integer_validator() missing 2 required positional arguments: 'name' a
 Traceback (most recent call last):
 ...
 TypeError: area() takes 1 positional argument but 2 were given
+
+
+# Test Case 9: integer_validator method receives a lias as argument
+>>> bg.integer_validator("age", [23])
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
