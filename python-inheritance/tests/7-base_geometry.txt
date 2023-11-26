@@ -68,3 +68,10 @@ TypeError: age must be an integer
 Traceback (most recent call last):
 ...
 TypeError: age must be an integer
+
+
+# Test Case 11: integer_validator method receives a dict as argument
+>>> bg.integer_validator("age", {23})
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
