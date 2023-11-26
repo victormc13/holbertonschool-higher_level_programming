@@ -47,3 +47,10 @@ TypeError: integer_validator() missing 1 required positional argument: 'value'
 Traceback (most recent call last):
 ...
 TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+
+# Test Case 8: Pass one argument to area method
+>>> bg.area(6)
+Traceback (most recent call last):
+...
+TypeError: area() takes 1 positional argument but 2 were given
