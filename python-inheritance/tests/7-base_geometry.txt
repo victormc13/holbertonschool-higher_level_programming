@@ -91,3 +91,5 @@ TypeError: age must be an integer
 # Test Case 14: integer_validator method receives a boolean as argument
 >>> bg.integer_validator("name", True)
 
+
+
