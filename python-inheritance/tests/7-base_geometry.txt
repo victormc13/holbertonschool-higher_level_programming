@@ -56,8 +56,15 @@ Traceback (most recent call last):
 TypeError: area() takes 1 positional argument but 2 were given
 
 
-# Test Case 9: integer_validator method receives a lias as argument
+# Test Case 9: integer_validator method receives a list as argument
 >>> bg.integer_validator("age", [23])
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+
+# Test Case 10: integer_validator method receives a tuple as argument
+>>> bg.integer_validator("age", (23,))
 Traceback (most recent call last):
 ...
 TypeError: age must be an integer
