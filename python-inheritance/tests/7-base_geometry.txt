@@ -6,12 +6,16 @@
 >>> bg = BaseGeometry()
 
 
-
 # Test Case 2: Call the area method (raises an Exception)
 >>> bg.area()
 Traceback (most recent call last):
 ...
 Exception: area() is not implemented
+
+
+# Test Case 3: integer_validator receives a good value argument
+>>> bg.integer_validator("age", 23)
+
 
 
 # Test Case 3: Value is not an integer (raises a TypeError)
