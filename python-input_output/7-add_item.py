@@ -15,7 +15,7 @@ else:
 
 
 # Add command line arguments to the list
-py_list.extend(argv[1:])
+py_list.extend(argv[:])
 
 # Save the updated list to the file
 save_to_json_file(py_list, filename)
