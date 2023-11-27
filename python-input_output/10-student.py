@@ -28,7 +28,7 @@ class Student:
         
         result = {}
         for attr in attrs:
-            value = getattr(self, attr)
+            value = self.__dict__.get(attr)
             if value is not None:
                 result[attr] = value
 
