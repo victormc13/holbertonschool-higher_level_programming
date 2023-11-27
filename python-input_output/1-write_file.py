@@ -8,7 +8,7 @@ def write_file(filename="", text=""):
 
     Args:
         filename (file): File to write.
-        text (str): Text to wrtie into the file. Defualts (empty string).
+        text (str): Text to write into the file. Defualts (empty string).
 
     Returns:
         int: Number of characters written.
