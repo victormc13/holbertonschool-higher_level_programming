@@ -30,4 +30,5 @@ class Student:
             for attr in attrs:
                 value = getattr(self, attr)
                 result[attr] = value
-                return result
+
+            return result
