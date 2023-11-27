@@ -28,7 +28,7 @@ class Student:
         
         result = {}
         for attr in attrs:
-            value = getattr(self, attr)
+            value = getattr(self.__dict__, attr)
             result[attr] = value
 
         return result
