@@ -25,10 +25,10 @@ class Student:
         """
         if attrs is None:
             return self.__dict__
-        else:
-            result = {}
-            for attr in attrs:
-                value = getattr(self, attr)
-                result[attr] = value
+        
+        result = {}
+        for attr in attrs:
+            value = getattr(self, attr)
+            result[attr] = value
 
-            return result
+        return result
