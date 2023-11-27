@@ -13,7 +13,7 @@ if exists(filename):
     py_list = load_from_json_file(filename)
 else:
     # Add command line arguments to the list
-    py_list.append(argv[1:])
+    py_list.extend(argv[1:])
 
 # Save the updated list to the file
 save_to_json_file(py_list, filename)
