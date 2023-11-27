@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+"""Call the json module"""
 import json
 
 """Defines to_json_string function"""
