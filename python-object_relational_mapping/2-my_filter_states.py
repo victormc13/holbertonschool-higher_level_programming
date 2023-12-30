@@ -9,7 +9,7 @@ if __name__ == "__main__":
     import sys
 
     username, password, database = sys.argv[1], sys.argv[2], sys.argv[3]
-    state_name = sys.arv[4]
+    state_name = sys.argv[4]
 
     # Connect to MySQL server
     try:
