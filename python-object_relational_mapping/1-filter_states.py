@@ -25,16 +25,16 @@ if __name__ == '__main__':
         sys.exit(1)
 
     # Create cursor object
-    cursor = db.cursor()
+    cur = db.cursor()
 
     # Execute query
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC;")
+    cur.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC;")
 
     # Fetch all rows and display results
-    results = cursor.fetchall()
+    results = cur.fetchall()
     for row in results:
         print(row)
 
     # Close the cursor and database connection}
-    cursor.close()
+    cur.close()
     db.close()
