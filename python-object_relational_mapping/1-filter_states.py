@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-""" 
+"""
 lists all states with a name starting with N(upper N)
 the database hbtn_0e_0_usa
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     import MySQLdb
     import sys
 
@@ -36,6 +36,6 @@ if __name__ == '__main__':
     for row in results:
         print(row)
 
-    # Close the cursor and database connection}
+    # Close the cursor and database connection
     cur.close()
     db.close()
