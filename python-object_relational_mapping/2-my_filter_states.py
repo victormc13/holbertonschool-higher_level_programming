@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     # Execute query with user input
     query = "SELECT * FROM states\
-            WHERE name = '{}'\
+            WHERE name = '{:s}'\
             ORDER BY id ASC;".format(state_name)
     cur.execute(query)
 
