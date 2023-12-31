@@ -28,16 +28,15 @@ if __name__ == "__main__":
     cur = db.cursor()
 
     # Execute query with user input
-    cur.execute("SELECT GROUP_CONCAT(cities.name SEPARATOR ', ')\
+    cur.execute("SELECT IFNULL(GROUP_CONCAT(cities.name SEPARATOR ', '), '')\
                 FROM cities\
                 JOIN states ON cities.state_id = states.id\
                 WHERE states.name = %s\
                 ORDER BY cities.id ASC;", (state_name,))
 
-    # Fetch all rows and display results
+    # Fetch the result and display it
     result = cur.fetchone()
-    if result:
-        print(result[0])
+    print(result[0])
 
     # Close the cursor and database connection
     cur.close()
