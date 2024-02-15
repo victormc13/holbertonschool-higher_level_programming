@@ -3,7 +3,7 @@ $(document).ready(() => {
   // Find the <header> element
   const headerElement = $('header');
 
-  // Adds the 'red' class to <header> element when user clicks on 'div#red_header' element
+  // Toggles the 'red' and 'green' class to <header> element when user clicks on 'div#toggle_header' element
   $('DIV#toggle_header').click(() => {
     headerElement.toggleClass('red green');
   });
